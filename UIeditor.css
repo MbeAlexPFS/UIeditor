@@ -1,0 +1,24 @@
+.view, .edit {
+    height: 80vh;
+}
+.component {
+    height: 20vh;
+}
+
+.view, .edit, .component {
+    overflow: auto;
+}
+
+.view .element:hover {
+    border: 0.3vh dashed blue;
+}
+
+.view .selected {
+    border: 0.5vh dashed rgb(152, 0, 142);    
+}
+
+#add {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
